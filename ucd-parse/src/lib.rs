@@ -9,9 +9,9 @@ extern crate lazy_static;
 extern crate regex;
 
 pub use common::{
-    parse, parse_by_codepoint, parse_many_by_codepoint, Codepoint,
-    CodepointIter, CodepointRange, Codepoints, UcdFile, UcdFileByCodepoint,
-    UcdLineParser,
+    parse, parse_by_codepoint, parse_many_by_codepoint, ucd_directory_version,
+    Codepoint, CodepointIter, CodepointRange, Codepoints, UcdFile,
+    UcdFileByCodepoint, UcdLineParser,
 };
 pub use error::{Error, ErrorKind};
 
